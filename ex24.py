@@ -3,7 +3,7 @@ print('You\'d need to know \'bout escapes with \\ that do \n newlines and \t tab
 
 poem = """
 \tThe lovely world
-with logic so firmly p;anted
+with logic so firmly planted
 cannot discern \n the needs of love
 nor comprehend passion from intuition
 and requires an explanation
