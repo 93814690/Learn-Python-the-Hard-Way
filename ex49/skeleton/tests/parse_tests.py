@@ -37,3 +37,9 @@ def test_subject():
     assert_equal(result.verb, 'eat')
     assert_equal(result.object, 'door')
 
+def test_sentence():
+    word_list = lexicon.scan("bear go east")
+    result = parse.parse_sentence(word_list)
+    assert_equal(result.subject, 'bear')
+    assert_equal(result.verb, 'go')
+    assert_equal(result.object, 'east')
